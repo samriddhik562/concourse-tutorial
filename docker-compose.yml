@@ -35,5 +35,6 @@ services:
       CONCOURSE_WORKER_RUNTIME: "houdini"
 
   concourse-git:
-    image: concourse/git-resource
+    image: bitnami/git
+
 
