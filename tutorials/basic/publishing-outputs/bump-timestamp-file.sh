@@ -3,6 +3,7 @@
 set -e # fail fast
 set -x # print commands
 
+git clone https://github.com/concourse/git-resource.git
 git clone resource-gist updated-gist
 
 cd updated-gist
